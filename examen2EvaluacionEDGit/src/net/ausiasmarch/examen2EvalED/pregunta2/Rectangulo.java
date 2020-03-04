@@ -16,7 +16,7 @@ public class Rectangulo extends FormaGeometrica {
 
 	@Override
 	public double area() {
-		return alto*ancho;
+		return 3.1416*getAlto()*getAncho();
 	}
 
 	@Override
