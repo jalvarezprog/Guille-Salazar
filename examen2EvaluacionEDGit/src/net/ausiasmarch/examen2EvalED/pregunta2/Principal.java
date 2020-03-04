@@ -14,9 +14,7 @@ public class Principal {
 	
 		List<FormaGeometrica> listaFormas = new ArrayList<FormaGeometrica>(10);
 		
-		Circulo c1 = new Circulo("negro", true, 12);
-		Circulo c2 = new Circulo("azul", true, 5);
-		Circulo c3 = new Circulo("blanco", true, 18);
+
 		
 		Triangulo t1 = new Triangulo("blanco", false, 12, 34);
 		Triangulo t2 = new Triangulo("verde", true, 7, 11);
@@ -27,9 +25,7 @@ public class Principal {
 		Rectangulo r3 = new Rectangulo("naranja", true, 22, 26);
 		
 		
-		listaFormas.add(c1);
-		listaFormas.add(c2);
-		listaFormas.add(c3);
+
 		listaFormas.add(t1);
 		listaFormas.add(t2);
 		listaFormas.add(t3);

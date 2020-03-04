@@ -6,6 +6,8 @@ public class Rectangulo extends FormaGeometrica {
 	// Private member variables
 	private int alto;
 	private int ancho;
+	
+	private int numeroAristas;
 
 	// Constructor
 	public Rectangulo(String color, boolean relleno, int alto, int ancho) {
@@ -13,6 +15,23 @@ public class Rectangulo extends FormaGeometrica {
 		this.alto = alto;
 		this.ancho = ancho;
 	}
+
+	
+	
+	
+	public int getNumeroAristas() {
+		return numeroAristas;
+	}
+
+
+
+
+	public void setNumeroAristas(int numeroAristas) {
+		this.numeroAristas = numeroAristas;
+	}
+
+
+
 
 	@Override
 	public double area() {
